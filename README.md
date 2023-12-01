@@ -9,15 +9,15 @@ Cover's major housing systems- for example, plumbing or electrical wiring- for a
 
 # A typical plan covers:
 
-Here you can arrange them as Nerdwallet
-Heating & cooling systems
-Electrical Systems & Accessories
-Plumbing Systems &Accessories
-Kitchen Appliances
-Laundry Appliances
-Roof Lean Repair
-Maintenance Services
-Additional Coverage
+- Here you can arrange them as Nerdwallet
+- Heating & cooling systems
+- Electrical Systems & Accessories
+- Plumbing Systems &Accessories
+- Kitchen Appliances
+- Laundry Appliances
+- Roof Lean Repair
+- Maintenance Services
+- Additional Coverage
 
 # Technologies used
 
