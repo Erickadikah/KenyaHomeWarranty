@@ -1,0 +1,26 @@
+.settings-form-container {
+    .btn {
+        margin-top: 20px;
+    }
+    input, textarea {
+      background-color: transparent;
+      outline: 0;
+    }
+    input:focus, textarea:focus {
+      outline: none;
+      background-color: transparent;
+    }
+}
+
+@media (max-width: 970px) {
+  .container .row {
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+
+  .container .col {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+}

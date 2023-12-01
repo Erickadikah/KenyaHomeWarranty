@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@0;1&family=Lora&family=Montserrat:wght@400;500&family=Nunito+Sans:ital,wght@0,300;0,400;0,600;1,200;1,500&family=Passion+One&family=Playfair+Display&family=Poppins&family=Roboto&display=swap');
+.choose-a-plan {
+  padding: 20px;
+  margin-bottom: 40px;
+  margin-top: 20px;
+  font-family: 'Lato', sans-serif;
+  font-family: 'Lora', serif;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
+  font-family: 'Passion One', cursive;
+  font-family: 'Playfair Display', serif;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto', sans-serif;
+
+  .all-plans {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+  }
+
+
+  .card1 {
+    background-color: #002244;
+    color: #d1d1d1;
+  }
+
+  .card2 {
+    background-color: hsl(0, 0%, 100%);
+  }
+
+  .card3 {
+    background-color: #1b1b1b;
+    color: white;
+  }
+
+  .plan-card {
+    width: 300px;
+    box-sizing: border-box;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+
+    .btn {
+      margin: 10px auto;
+      display: grid;
+    }
+  }
+}
+
+.active-plan {
+  background-color: #0260c5 !important;
+  color: white;
+}
+
+
+
+@media (max-width: 1030px) {
+  .choose-a-plan {
+    .all-plans {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}

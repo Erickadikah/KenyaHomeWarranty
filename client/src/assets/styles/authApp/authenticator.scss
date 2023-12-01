@@ -1,0 +1,40 @@
+ @import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat:wght@400;500&family=Nunito+Sans:ital,wght@0,300;0,400;0,600;1,200;1,500&family=Passion+One&family=Playfair+Display&family=Poppins:ital,wght@0,300;0,400;0,500;1,500&display=swap');
+
+body {
+  background-color: black;
+  font-size: 14px;
+  font-family: 'Merriweather', serif;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
+  font-family: 'Passion One', cursive;
+  font-family: 'Playfair Display', serif;
+  font-family: 'Poppins', sans-serif;
+}
+
+.form-control {
+  padding: 8px;
+  border-radius: 0;
+  border: 1px rgba(0, 0, 0, 0.2) solid;
+}
+
+
+#authError {
+  div {
+    padding: 0;
+  }
+  padding-bottom: 10px;
+  ul {
+    padding: 0;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    margin: 0;
+  }
+}
+
+@media(max-width:550px) {
+  .sign-in-form, .sign-up-form {
+    width: 90%;
+  }
+}
+
+

@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat:wght@400;500&family=Nunito+Sans:ital,wght@0,300;0,400;0,600;1,200;1,500&family=Passion+One&family=Playfair+Display&display=swap');
+
+
+#plan-manager {
+    margin-top: 30px;
+    font-family: 'Merriweather', serif;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar {
+    padding: 5px 20px !important;
+}.step-1 {
+    transform: translateY(10rem);
+    width: 300px !important;
+    padding: 10px;
+}
+
+#step-check-img {
+    width: 30px;
+    border: none;
+    outline: 2px rgb(0, 0, 255);
+    border-radius: 50%;
+    object-fit: contain;
+}
+
+#features ul li{
+    margin: 15px 10px;
+}
+
+#features ul li img{
+    height: 25px;
+    width: 25px;
+}
+
+.step-1 .btn{
+    width: 100%;
+    display: grid;
+    margin: 15px auto;
+}
+
+#table-header {
+    margin-top: 50px;
+}
+
+
+#plan-cards {
+    display: grid;
+    width: 50vw;
+    grid-gap: 10px;
+    grid: 60px / repeat(3, 1fr);
+    margin-bottom: 30px;
+}
+#plan-cards div {
+    padding-top: 20px;
+}
+
+#payment-options div{
+    padding-left: 10px;
+    padding-top: 30px;
+    width: 400px;
+    margin: 10px;
+}
+
+#payment-options div:hover {
+    background-color: #dddddd !important;
+}
+
+#payment-options div img {
+    margin-right: 10px;
+}
+
+#credit-debit-form {
+    max-width: 400px;
+    padding-top : 10px;
+}
+
+#credit-debit-form div {
+    margin: 10px 0;
+}
+
+#credit-debit-form .form-group .form-control{
+    margin: 10px 5px;
+}
+
+#credit-debit-form div .form-control {
+    margin: 10px 5px;
+}
+
+.fade-in {
+  animation: shake-in 1s;
+}
+
+@keyframes shake-in {
+  0% {
+    opacity: 0;
+    transform: scale(0);
+  }
+  20% {
+    opacity: 1;
+    transform: scale(1.2) rotate(-5deg);
+  }
+  40% {
+    transform: scale(1) rotate(5deg);
+  }
+  60% {
+    transform: scale(1.2) rotate(-5deg);
+  }
+  80% {
+    transform: scale(1) rotate(5deg);
+  }
+  100% {
+    transform: scale(1) rotate(0);
+  }
+}

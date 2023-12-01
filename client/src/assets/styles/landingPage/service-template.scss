@@ -1,0 +1,69 @@
+.servicePage {
+  margin-top: 50px;
+  .img {
+    display: block;
+    width: 95%;
+    max-height: 500px;
+    object-fit: cover;
+    object-position: center;
+    margin: 10px auto;
+  }
+  .top-nav {
+    display: flex;
+    align-items: center;
+    div {
+      width: 50%;
+    }
+    padding: 0px 20px 0 10px;
+    margin-bottom: 20px;
+    div:has(.btn) {
+      display: flex;
+      justify-content: flex-end;
+      position: relative;
+    }
+    div:has(h2) {
+      padding-top: 20px;
+    }
+  }
+  .description {
+    padding-inline: 15px;
+  }
+  .coverage {
+    padding-inline: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    ul {
+      padding-left: 0;
+      list-style: none;
+      li {
+        margin: 10px;
+      }
+    }
+    img {
+      width: 18px;
+    }
+    div {
+      width: 50%;
+    }
+  }
+  .box {
+    width: 95vw;
+    margin: 0 auto;
+  }
+}
+
+
+.service-stat {
+  p {
+    padding-left: 50px;
+    color: darkblue;
+    font-size: large;
+    font-weight: bold;
+  }
+}
+@media (max-width: 990px) {
+  .servicePage .coverage div {
+    width: 100%;
+  }
+}
+

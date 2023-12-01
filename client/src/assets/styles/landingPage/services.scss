@@ -1,0 +1,84 @@
+.services {
+  padding-bottom: 20px;
+  padding-top: 20px;
+  margin-bottom: 40px;
+  .btn {
+    display: grid;
+    margin: 10px auto;
+    min-width: 200px;
+  }
+
+  .service-head {
+    margin-bottom: 10px;
+    div:last-child {
+      padding-right: 20px;
+      display: flex;
+      justify-content: center;
+    }
+  }
+
+  .all--services {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 80%;
+    margin: 10px auto;
+    box-sizing: border-box;
+    padding: 20px 10px;
+
+
+    .service--card {
+      margin: 10px;
+      display: flex;
+      flex-direction: column;
+      border-radius: 3px;
+      width: 300px;
+      height: 200px;
+      figCaption {
+        position: relative;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        top: -200px;
+        width: 300px;
+        height: 200px;
+        border-radius: 3px;
+        font-size: 30px;
+        background-color: rgba(0, 0, 0, 0.3);
+        font-weight: 700;
+      }
+      img {
+        border-radius: 3px;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+      .service--details {
+        padding: 10px;
+        display: grid;
+        grid: 85% 15% / 100%;
+        position: absolute;
+        z-index: 99;
+        background-color: white;
+        border-radius: 3px;
+        animation: display-service 2s 1 alternate;
+        transition: margin .3s ease-out .2s;
+      }
+    }
+  }
+}
+
+@keyframes display-service {
+  from {
+    opacity: 0;
+    margin-top: -20px;
+  }
+  to {
+    opacity: 1;
+    margin-top: 0;
+  }
+}

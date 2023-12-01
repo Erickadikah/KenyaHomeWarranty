@@ -1,0 +1,44 @@
+.sign-in-form {
+    max-width: 300px !important ;
+    padding: 20px;
+    border-radius: 5px;
+    .btn {
+        margin: 10px auto;
+        display: block;
+    }
+    padding-bottom: 30px;
+    margin-bottom: 10px;
+    h3 {
+        border-bottom: 30px;
+        font-weight: normal;
+    }
+
+    .form-control {
+        margin: 10px 0;
+    }
+    .btn {
+        width: 200px;
+    }
+}
+
+div:has(.sign-in-form) {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #dddddd;
+}
+
+.password-input-wrapper {
+  position: relative;
+}
+
+.password-toggle {
+  position: absolute;
+  top: 50%;
+  right: 8px;
+  transform: translateY(-50%);
+  cursor: pointer;
+}

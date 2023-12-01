@@ -1,0 +1,54 @@
+section:has(.features-benefits){
+    padding: 20px 15px;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.features-benefits {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    .features,
+    .benefits {
+        padding: 10px;
+        margin: 10px 0;
+        h2 {
+            margin-left: 10px;
+        }
+        ul {
+            padding: 0;
+            list-style: none;
+            padding-left: 10px;
+            li {
+                margin: 20px 0;
+                div {
+                    width: 8px;
+                    height: 8px;
+                    border-radius: 50%;
+                    margin: 5px 10px 5px 5px;
+                    float: left;
+                }
+            }
+        }
+    }
+}
+
+.features-header {
+    display: grid;
+    grid: 100% / 1fr 250px 1fr;
+    div {
+        border-bottom: 2px rgba(0, 0, 3, 0.4) solid;
+    }
+    div:has(span) {
+        padding: 6px;
+        display: flex;
+        justify-content: center;
+        border-bottom: none;
+        span {
+            position: relative;
+            top: 9px;
+        }
+    }
+}
+

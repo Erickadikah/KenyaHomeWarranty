@@ -1,0 +1,34 @@
+.side-bar {
+  background-color:  rgba(15, 32, 39, 0.9);
+  height: 100vh;
+  width: 280px;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 3000;
+  a {
+    text-decoration: none;
+    color: white;
+    &:hover {
+      color: yellow;
+    }
+  }
+  img {
+    width: 25px;
+  }
+  ul {
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    padding: 40px;
+    li {
+      margin: 20px 0;
+      .btn a{
+        color: black;
+      }
+    }
+  }
+}

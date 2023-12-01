@@ -1,0 +1,22 @@
+.recent-requests {
+    margin-top: 50px;
+    padding-top: 20px;
+    padding: 10px;
+    .btn {
+        margin-left: 5px;
+    }
+}
+
+
+@keyframes fade {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.fade-element {
+  animation: fade 2s infinite; /* Adjust the duration as needed */
+}

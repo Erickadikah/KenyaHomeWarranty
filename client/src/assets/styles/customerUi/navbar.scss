@@ -1,0 +1,98 @@
+
+%shadow-box {
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.4);
+}
+
+.navBar {
+    background-color: #ffffff;
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    display: grid;
+    top: 0;
+    display: grid;
+    grid-template-columns: 10% 65% 25%;
+    align-items: center;
+    padding: 0 10px;
+    box-sizing: border-box;
+    ul {
+        list-style: none;
+        display: inline-flex;
+        margin: 0;
+        li {
+            margin: 0 20px ;
+        }
+    }
+    div:has(ul){
+        position: relative;
+        left: -20px;
+        display: flex;
+        align-items: center;
+        img {
+            border-radius: 50%;
+        }
+        img:hover {
+            border: 1px black solid;
+            background-color: rgb(211, 211, 211, 0.4);
+        }
+        .drop-down {
+            position: fixed;
+            margin-left: -20px;
+            display: none;
+            background-color: #ffffff;
+        }
+        .notifications-drop-down {
+            width: 300px;
+            @extend %shadow-box;
+            div {
+                padding: 10px;
+                display: flex;
+                align-items: center;
+            }
+            div:hover{
+                background-color: lightgray;
+            }
+            div:last-child{
+                border: none;
+            }
+            .btn-dark {
+                width: 99%;
+                display: grid;
+                margin: 5px auto;
+            }
+        }
+        .account-drop-down {
+            @extend %shadow-box;
+            box-sizing: border-box;
+            div {
+                padding: 8px;
+                display: flex;
+                align-items: center;
+            }
+            img {
+                float: right;
+            }
+            div:hover {
+                background-color: lightgray;
+            }
+        }
+    }
+    .nav-menu {
+        margin-left: 15px;
+    }
+
+    div:has(h1){
+        h1{
+            margin: 0;
+            font-size: 21px;
+        }
+    }
+    a {
+        text-decoration: none;
+    }
+
+    li:hover .drop-down {
+        display: block;
+        z-index: 10;
+    }
+}
